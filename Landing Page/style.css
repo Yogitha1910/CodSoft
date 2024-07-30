@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    color: white;
+    text-align: center;
+    background: url('My-50-favourite-travel-blogs-1.jpg') no-repeat center center/cover;
+    padding: 2em 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+.hero {
+    padding: 5em 1em;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.destination-grid, .package-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.destination, .package {
+    flex: 1;
+    margin: 1em;
+    max-width: 300px;
+}
+
+.destination img, .package img {
+    width: 100%;
+    height: auto;
+}
+
+.destination h3, .package h3 {
+    margin: 0.5em 0;
+}
+
+.destination p, .package p {
+    font-size: 1em;
+}
+
+.package span {
+    display: block;
+    font-size: 1.5em;
+    color: #ff5722;
+    margin-top: 0.5em;
+}
+
+.testimonial {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #f4f4f4;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff5722;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}

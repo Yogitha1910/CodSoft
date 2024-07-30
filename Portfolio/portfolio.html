@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogitha Vellanki - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f3;
+            color: #444;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: rgb(0, 157, 255);
+            color: #fff;
+            padding: 50px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header .name-section {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        header .name-section h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header .name-section .subtitle {
+            font-size: 20px;
+            margin-top: 5px;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 160px;
+            height: 160px;
+            margin-right: 20px;
+        }
+
+        /* Section Styles */
+        section {
+            background-color: #fff;
+            margin: 30px 0;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 26px;
+            color: #444;
+            margin-bottom: 25px;
+        }
+
+        /* About Section */
+        .about-section {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .about-section img {
+            border-radius: 50%;
+            width: 160px;
+            height: 160px;
+        }
+
+        .about-section p {
+            flex: 1;
+            text-align: justify;
+        }
+
+        /* Skills Section */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 15px;
+        }
+
+        .skills-list div {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1 1 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Projects Section */
+        .projects-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 15px;
+        }
+
+        .projects-list .project-item {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1 1 320px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Resume Section */
+        .resume-button {
+            display: inline-block;
+            background-color: #f99;
+            color: #fff;
+            padding: 12px 22px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .resume-button:hover {
+            background-color: #e66;
+        }
+
+        /* Contact Section */
+        #contact p {
+            text-align: center;
+            margin: 8px 0;
+        }
+
+        #contact a {
+            color: #444;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #444444;
+            color: #fff;
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="name-section">
+            <h1>Yogitha Vellanki</h1>
+            <p class="subtitle">Aspiring IT Professional & Future Developer</p>
+        </div>
+        <img src="image.jpg" alt="Yogitha Vellanki">
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="about-section">
+            <p>I am an ambitious IT student in my final year at Vignan University, aiming to graduate in 2025. I have proficiency in programming languages such as C, Java, and Python, and a strong grasp of databases including Oracle and MySQL. My skills also extend to web development technologies like HTML, CSS, and JavaScript. I am driven by a passion for continuous learning and excellence in all my projects. I firmly believe in the power of dedication and hard work to achieve my career goals.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div>Programming: C, Java, Python</div>
+            <div>Database Management: Oracle, MySQL</div>
+            <div>Web Development: HTML, CSS, JavaScript</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-list">
+            <div class="project-item">
+                <h3>Hospital Management System</h3>
+                <p>This project simplifies hospital workflows by managing patient registration, medical records, and billing processes. Key features include online registration, staff management, and secure electronic medical records.</p>
+            </div>
+            <div class="project-item">
+                <h3>Advanced Calculator</h3>
+                <p>An application for performing a wide range of mathematical operations, from basic arithmetic to advanced functions like trigonometry and complex equations.</p>
+            </div>
+            <div class="project-item">
+                <h3>Personal Portfolio</h3>
+                <p>A digital showcase of my work and achievements, including my resume, project samples, case studies, and personal milestones, aimed at demonstrating my expertise and attracting potential employers or clients.</p>
+            </div>
+            <div class="project-item">
+                <h3>Marketing Landing Page</h3>
+                <p>A standalone web page designed to drive conversions for a marketing campaign, featuring a clear call-to-action (CTA) and focused on promoting a single product or offer to engage users effectively.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="container">
+        <h2>Resume</h2>
+        <p>Click the button below to download my resume and learn more about my skills, experience, and accomplishments in detail.</p>
+        <a href="Yogitha_Vellanki (4).pdf" target="_blank" class="resume-button">Download My Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:vellankiyogitha4@gmail.com">harikachowdary692@gmail.com</a></p>
+        <p>Phone: +91 8790817578</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yogitha Vellanki. All rights reserved.</p>
+            <p>Thank you for visiting my portfolio. Have a wonderful day!</p>
+        </div>
+    </footer>
+</body>
+
+</html>

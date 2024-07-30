@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Explore the World with Us</h1>
+            <p>Find your next adventure</p>
+            <a href="#destinations" class="cta-button">Discover More</a>
+        </div>
+    </header>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="paris.jpg" alt="Paris">
+                <h3>Paris</h3>
+                <p>The city of lights.</p>
+            </div>
+            <div class="destination">
+                <img src="newyork.avif" alt="New York">
+                <h3>New York</h3>
+                <p>The city that never sleeps.</p>
+            </div>
+            <div class="destination">
+                <img src="tokyothings.jpeg" alt="Tokyo">
+                <h3>Tokyo</h3>
+                <p>The vibrant capital of Japan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages">
+        <h2>Travel Packages</h2>
+        <div class="package-grid">
+            <div class="package">
+              <img src="Long-weekend-Getaway-near-Mumbai_11.jpg" alt="Paris">
+                <h3>Weekend Getaway</h3>
+                <p>2 nights stay in a luxury hotel</p>
+                <span>$299</span>
+            </div>
+            <div class="package">
+              <img src="ea.jpeg" alt="Paris">
+                <h3>European Adventure</h3>
+                <p>7 days exploring Europe</p>
+                <span>$999</span>
+            </div>
+            <div class="package">
+              <img src="island-escape-by-burasari.jpg" alt="Paris">
+                <h3>Island Escape</h3>
+                <p>5 days in a tropical paradise</p>
+                <span>$799</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"An unforgettable experience! The trip was perfectly organized and every detail was taken care of."</p>
+            <cite>- Sarah J.</cite>
+        </div>
+        <div class="testimonial">
+            <p>"Amazing service and breathtaking destinations. Highly recommend!"</p>
+            <cite>- John D.</cite>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
